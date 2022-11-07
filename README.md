@@ -1,3 +1,4 @@
+```
 from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split, StratifiedGroupKFold,StratifiedKFold
 from sklearn.metrics import accuracy_score, f1_score
@@ -67,3 +68,4 @@ def train_optuna_func():
     for key, value in trial.params.items():
         print("    {}: {}".format(key, value))
 train_optuna_func()
+```
